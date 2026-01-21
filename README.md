@@ -41,6 +41,27 @@ pip install -r requirements.txt
 
 
 
+### Features, In Depth
+
+**Acqknowledge Processing Features** - *Located in ACQHelperFunctions.py*
+
+1. Reads Acqknowledge file headers to collect relevant metadata like sampling rate, recording channel names, and duration of study.
+2. Automatically reads Acqknowledge Biodata files and converts relevant data to Pandas dataframe
+3. Automatically indentifies the starting time of Acqknowledge files in Unix seconds and converts the time column in Acqknowledge to Unix seconds based on this information
+
+**Merging Features** - *Located in mergeStruct.py*
+
+1. Defines a MergeObject class, which is instantiated with a dataframe objects, recording UnixStartTime, recording UnixEndTime, filePath, and column headers and creates an object that is ready to merge with other MergeObjects
+2. Defines a method called append in the MacroMerge class(unfinished). Append takes MergeObjects and merges them together in the *binning* method that is described in the [About the Project](#about-the-project) section.
+3. Defines a method called save in the MacroMerge class(unfinished). Save exports a CSV containing all the time series data that have been appended to MacroMerge using the append method. 
+
+
+
+
+
+
+
+
 
 
 
