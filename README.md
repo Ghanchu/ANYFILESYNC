@@ -17,9 +17,8 @@ ANYFILESYNC enforces that the time column in each data modality refers to time i
 2. [Quickstart Guide](#quickstart)
 3. [Technical Explanation + Architecture Diagram](#technical-specifications)
 4. [Usage Examples](#usage-examples)
-6. [Frequently Asked Questions (FAQ)](#frequently-asked-questions-faq)
-7. [Required Dependencies](#required-dependencies)
-8. [Acknowledgements & Credits](#acknowledgements--credits)
+5. [Frequently Asked Questions (FAQ)](#frequently-asked-questions)
+6. [Acknowledgements](#acknowledgements)
 
 ## Quickstart 
 
@@ -119,6 +118,37 @@ m.append(acqOBJ)
 Hexoskin and Acqknowledge are two data collecting devices that we have used in my lab. In this example, the Hexoskin.csv file is already formatted in Unix seconds. The Acqknowledge file is parsed through and is then merged with the example.csv Hexoskin file. We can directly combine these files from the command line:
 
 ![Merging Two Files](example.gif)
+
+
+## Frequently Asked Questions
+
+**1. What are unix seconds**
+
+Unix seconds are the number of seconds since January 1, 1970, also known as the Unix epoch. We use unix seconds to keep track of time series data since it is standard, independent of timezones, and allows us to ensure that we are not merging data based on iconsistently applied relative study times. 
+
+**2. Can I fork this code and modify it**
+
+Yes, feel free to fork this code and modify it.
+
+**3. Is data for files with faster sampling rates lost?**
+
+No, data for files with faster sampling rates is not lost. Files with slower sampling rates have there data essentially slotted in to those files with faster sampling rates, in an established proccess known as *binning* in data science. 
+
+**4. Is there one way to append data objecst that are faster than other?**
+
+While I haven't done extesnsive testing of this, I have seen that appending files of faster sampling rates first before appending files of lower sampling rates usually results in faster performance.
+
+
+## Acknowledgements
+
+Aadil Parvaz - Main Designer
+
+Aditya Jalin - Tewari Lab Data Science Coordinator
+
+
+
+
+
 
 
 
