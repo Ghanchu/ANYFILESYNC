@@ -1,4 +1,4 @@
-![Architecture Diagram](banner.jpeg)
+![Banner](banner.jpg)
 
 
 # ANYFILESYNC
