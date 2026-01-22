@@ -1,3 +1,6 @@
+![Architecture Diagram](banner.jpeg)
+
+
 # ANYFILESYNC
 
 ## About the Project
