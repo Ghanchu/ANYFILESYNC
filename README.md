@@ -29,6 +29,8 @@ First, clone the respository for this project:
 git clone git@github.com:Ghanchu/ANYFILESYNC.git
 ```
 
+![GIT CLONE Diagram](cloning.gif)
+
 Then, make sure to install all requirements necessary for this project to run 
 
 ```shell
@@ -113,6 +115,8 @@ m.append(acqOBJ)
 ```
 
 ### 2. Merging Hexoskin and Acqknowledge Data
+
+
 
 
 
