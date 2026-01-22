@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### Architecture Diagram
 
-![Architecture Diagram](architecture.png)
+![Architecture Diagram](better_architecture.png)
 
 *An example of how multiple collecting devices that record different time series can be synced together*
 
