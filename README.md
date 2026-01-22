@@ -116,6 +116,10 @@ m.append(acqOBJ)
 
 ### 2. Merging Hexoskin and Acqknowledge Data
 
+Hexoskin and Acqknowledge are two data collecting devices that we have used in my lab. In this example, the Hexoskin.csv file is already formatted in Unix seconds. The Acqknowledge file is parsed through and is then merged with the example.csv Hexoskin file. We can directly combine these files from the command line:
+
+![Merging Two Files](example.gif)
+
 
 
 
