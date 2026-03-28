@@ -1,4 +1,4 @@
-![Banner](revised_banner.jpg)
+![Banner](revised_banner.png)
 
 
 # ANYFILESYNC
