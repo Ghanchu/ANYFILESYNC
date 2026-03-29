@@ -56,7 +56,7 @@ pip install -r requirements.txt
 
 ### Architecture Diagram
 
-![Architecture Diagram](better_architecture.png)
+**The Architecture Diagram is now going to be my MDE Project Tenant Guardian, not this project**
 
 *An example of how multiple collecting devices that record different time series can be synced together*
 
