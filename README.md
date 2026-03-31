@@ -121,7 +121,7 @@ Hexoskin and Acqknowledge are two data collecting devices that we have used in m
 
 The following gif is a merged csv file from an Acqknowledge device that records at 100 Hz and a Hexoskin (HEX) device that records at 1 Hz. Notice how many of the Hexoskin values are duplicated since values are recorded at a lower frequency than the Acqknowledge device
 
-![Output csv](output.gif)
+![Output csv](output.mov)
 
 
 ## Frequently Asked Questions
