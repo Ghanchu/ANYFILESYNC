@@ -28,8 +28,6 @@ First, clone the respository for this project:
 git clone git@github.com:Ghanchu/ANYFILESYNC.git
 ```
 
-![GIT CLONE Diagram](cloning.gif)
-
 Then, make sure to install all requirements necessary for this project to run 
 
 ```shell
@@ -118,6 +116,12 @@ m.append(acqOBJ)
 Hexoskin and Acqknowledge are two data collecting devices that we have used in my lab. In this example, the Hexoskin.csv file is already formatted in Unix seconds. The Acqknowledge file is parsed through and is then merged with the example.csv Hexoskin file. We can directly combine these files from the command line:
 
 ![Merging Two Files](example_redone.gif)
+
+**Merged File Example** - *output.csv*
+
+The following gif is a merged csv file from an Acqknowledge device that records at 100 Hz and a Hexoskin (HEX) device that records at 1 Hz. Notice how many of the Hexoskin values are duplicated since values are recorded at a lower frequency than the Acqknowledge device
+
+![Output csv](output.gif)
 
 
 ## Frequently Asked Questions
